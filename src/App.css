@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+
+.anymag{
+  background-color: rgb(44,30,43);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  padding: 3.5rem;
+  padding-bottom: 0;
+  padding-top: 5rem;
+}
+
+.anymag p{
+  color: white;
+  font-size: 1.rem;
+  margin-bottom: 3rem;
+}
+
+.anymag button{
+  width: fit-content;
+  height: fit-content;
+  padding: .7rem 1.6rem;
+  background-color: #F8537E;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+}
+
+.any{
+  width: 25rem;
+  height: 5.5rem;
+}
+
+.mag{
+  position: absolute;
+  right: -25rem;
+  top: 0;
+  z-index: 10;
+}
+
+.demo{
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.demo-pics,
+.fashion-pics{
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  padding-left: 7rem;
+}
+
+ span{
+  font-size: 20px;
+}
+
+.demo-main,
+.demo-dark,
+.demo-fashion,
+.demo-lifestyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main,
+.dark,
+.fashion,
+.lifestyle{
+  width: 35rem;
+}
+
+.demo-dark,
+.demo-lifestyle{
+  padding-left: 2rem;
+}
+
+.demo-main span,
+.demo-dark span,
+.demo-fashion span,
+.demo-lifestyle span{
+  margin-top: -2rem;
+}
+
+.others{
+  display: flex;
+  margin-top: 9rem;
+  margin-left: 8rem;
+  width: 80vw;
+  justify-content: space-between;
+}
+
+.others p{
+  font-size: 1rem;
+}
+
+.one,
+.two,
+.three,
+.four{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.act{
+  width: 3rem;
+  height: 2.6rem;
+}
+
+.not{
+  font-size: 2rem;
+}
+
+.magz{
+  width: 80vw;
+}
+
+.all{
+  font-size: 3rem;
+  font-weight: 300;
+  
+}
+
+.all span{
+  font-size: 3rem;
+  font-weight: 600;
+  
+}
+
+.not{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.buy{
+  width: 8rem;
+  height: 3.2rem;
+  background: #F8537E;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 5rem;
+}
+
